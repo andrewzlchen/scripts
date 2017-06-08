@@ -18,3 +18,11 @@ then
     ## Run the Debian version of the update command
     sudo apt-get update && sudo apt-get dist-update
 fi
+
+## Test if the local host is a Mac
+
+if [ -d /usr/local/Homebrew ]
+then
+    ## Update homebrew
+    brew update
+fi

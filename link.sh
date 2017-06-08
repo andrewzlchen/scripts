@@ -1,0 +1,7 @@
+#!/bin/bash
+
+## This script is meant to link all of the other scripts in the folder to /usr/local/bin, and make them all executable. This is good for a first time install of your system.
+## Note: Even if some of the files have already been hardlinked, the script still moves on and links the rest of the unlinked scripts to /usr/local/bin
+
+chmod +x *
+ln * /usr/local/bin
