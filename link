@@ -4,4 +4,4 @@
 ## Note: Even if some of the files have already been hardlinked, the script still moves on and links the rest of the unlinked scripts to /usr/local/bin
 
 chmod +x *
-ln * /usr/local/bin
+cp * /usr/local/bin
