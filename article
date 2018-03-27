@@ -1,9 +1,15 @@
 #!/bin/bash
 
-## This script will make a new tex file for general purposes
+## This script will make a new directory of notes in the present directory
 
-echo "Making article file.."
+echo "Please enter name of article file directory"
 
-cp ~/templates/latex/notes.tex .
+read NAME
+
+echo "Creating file and directory..."
+
+mkdir $NAME && cd $NAME
+
+cp ~/templates/latex/article.tex ./main.tex
 
 echo "Done!"
