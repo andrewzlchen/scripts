@@ -1,0 +1,9 @@
+#!/bin/bash
+
+## This script will make a new tex file for general purposes
+
+echo "Making article file.."
+
+cp ~/templates/latex/notes.tex .
+
+echo "Done!"
